@@ -16,9 +16,7 @@ import ListRickAndMorty from './views/ListRickAndMorty';
 import ListHarryPotter from "./views/ListHarryPotter";
 import "./App.css";
 
-const defaultHistory = createBrowserHistory();
-
-function App({ t }) {
+function App() {
   return (
     <React.Fragment>
         <GlobalStyle />
