@@ -1,7 +1,6 @@
 import React from "react";
 import { withNamespaces } from 'react-i18next';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { createBrowserHistory } from "history";
 
 /* GLOBAL STYLE */
 import GlobalStyle from "./globalStyle";
