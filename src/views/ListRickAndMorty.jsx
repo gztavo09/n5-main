@@ -5,7 +5,7 @@ const {
     REACT_APP_RAM_HOST: RamHost,
 } = process.env;
 
-function ListRickAndMorty({ history }) {
+const ListRickAndMorty = ({ history }) => {
     return <MicroFrontend history={history} host={RamHost} name="Ram" />;
 }
 

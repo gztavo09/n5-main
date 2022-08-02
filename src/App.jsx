@@ -3,11 +3,11 @@ import { withNamespaces } from 'react-i18next';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 /* GLOBAL STYLE */
-import GlobalStyle from "./globalStyle";
+import GlobalStyle from "./styles/globalStyle";
 import Container from "./styles/container/Container";
 
 /* COMPONENTES */
-import Nav from "./components/navigation/nav";
+import Nav from "./components/navigation/Nav";
 
 /* VISTAS */
 import Home from './views/Home';
@@ -15,7 +15,7 @@ import ListRickAndMorty from './views/ListRickAndMorty';
 import ListHarryPotter from "./views/ListHarryPotter";
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <React.Fragment>
         <GlobalStyle />

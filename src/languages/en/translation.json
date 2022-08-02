@@ -1,5 +1,34 @@
 {
-    "Listado": "List",
     "Idioma": "Language",
-    "Navegando": "Navigate"
+    "Navegando": "Navigate",
+    "Preguntas": "Questions",
+    "¿Qué es la accesibilidad? ¿Cómo lo logras?": "What is accessibility? How do you achieve it?",
+    "Tiene como objetivo que los sitios web sean utilizables por el máximo número de personas. Uso algo de UI y UX, y aplico 'reconocer es más facil que recordar'": "Aims to make websites usable by the maximum number of people. I use some UI and UX, and apply 'recognize is easier than remember'",
+    
+    "¿Cuál es la diferencia entre session storage, local storage y cookies?" : "What is the difference between session storage, local storage and cookies?",
+    "La información es almacenada hasta que se cierra el sitio web": "Information is stored until the website is closed",
+    "La información dura hasta que limpies tu caché": "Information lasts until you clear your cache",
+    "Almacenan poca información y duran el tiempo programado al crearlas": "They store little information and last the programmed time when creating them",
+
+    "Explica en que consiste el event loop de javascript, y tambien explica como es que funciona las promesas y el async await" : "Explain the javascript event loop (also may explain how promises or async await work in js these are basically all the same question/answer)",
+    "Gestiona una lista de tareas ejecutándose y una lista de tareas en cola": "Manage a list of running tasks and a list of queued tasks",
+    "Con las promesas no sabemos cuándo se van a resolver y con async await forzamos una espera en la función": "With promises we don't know when they are going to be resolved and with async await we force a wait in the function",
+
+    "Si estas teniendo muchas llamadas API que vienen desde tus hooks, ¿que puedes hacer para prevenirlas?": "If you are getting too many API calls being made from your hooks, what can you do to prevent this?",
+    "En mi opinión, lo correcto será que la API traiga toda la información que necesitamos, en lugar de tener muchos servicios": "In my opinion, the correct thing will be for the API to bring all the information we need, instead of having many services",
+    
+    "¿Cómo manejas el estado global?, y ¿por qué de esa manera?": "How do you manage the global state?, and why in that way?",
+    "Uso useContext para una aplicación pequeña que solo necesita pasar información entre componentes sin mucha lógica, y Redux para proyectos con más complejidad de gestión de datos": "I use useContext for a small application that just needs to pass information between components without much logic, and Redux for projects with more data management complexity",
+    
+    "¿Qué es el renderizado progresivo?": "What is progressive rendering?",
+    "Nombre de  técnicas utilizadas para mejorar el rendimiento de una página web. Ejm: Lazyload" : "Name of techniques used to improve the performance of a web page. Example: Lazyload",
+
+    "¿Qué tipo de métricas revisas para evaluar la calidad y cuidar de tu aplicación de frontend?": "What kind of metrics have you been checking to evaluate or care about in frontend apps?",
+    "Uso NewRelic, Hotjar, Google Analytics, Heatmap and ultimamente estoy aprendiendo Sentry": "I use NewRelic, Hotjar, Google Analytics, Heatmap and lately I'm learning Sentry",
+    
+    "¿Cómo se toma la decisión de renovar/reconstruir una aplicación?": "How do you make the decision to revamp/rebuild an application?",
+    "Depende, por ejemplo si para la aplicación es mejor usar teconología más actual para la compatibilidad con navegadores o quizá su utilización como microfrontend en otro proyecto": "It depends, for example, if it is better for the application to use more current technology for compatibility with browsers or maybe its use as a microfrontend in another project",
+    
+    "¿Qué estándares crees que es importante compartir en las aplicaciones frontend?": "Which standards do you think it's important to share in frontend apps?",
+    "Por ejemplo: la arquitectura de carpetas, Metodologías para las hojas de estilo, y above the fold": "For example: Folder Architecture, Methodologies for Style Sheets, and Above the Fold"
 }

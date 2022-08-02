@@ -1,10 +1,9 @@
 import React from 'react'
+import ListOfQuest from '../components/quest/ListOfQuest';
 
-function Home({ history }) {
+const Home = ({ history }) => {
     return (
-      <div className="container">
-         Homeee
-      </div>
+      <ListOfQuest />
     );
 }
 

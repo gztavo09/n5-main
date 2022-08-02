@@ -5,7 +5,7 @@ const {
     REACT_APP_HP_HOST: HpHost,
 } = process.env;
 
-function ListHarryPotter({ history }) {
+const ListHarryPotter = ({ history }) => {
     return <MicroFrontend history={history} host={HpHost} name="Hp" />;
 }
 

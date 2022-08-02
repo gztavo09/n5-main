@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* COMPONENTES */
-import Idiom from '../language/idiom';
+import Idiom from '../language/LanguageToogle';
 import Menu from '../menu/Menu';
 
 /* ESTILOS */

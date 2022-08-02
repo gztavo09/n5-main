@@ -5,7 +5,7 @@ import { withNamespaces } from 'react-i18next';
 import LngContainer from '../../styles/language/Lng__Container';
 import LngButton from '../../styles/language/Lng__button';
 
-function Idiom({ t }) {
+const Idiom = ({ t }) => {
 
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng);

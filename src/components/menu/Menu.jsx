@@ -1,7 +1,7 @@
 import React from 'react'
 import NavLinkMenu from '../../styles/menu/Menu__Link';
 
-function menu() {
+const menu = () => {
   return (
     <ul>
         <li>
