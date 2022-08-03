@@ -7,7 +7,7 @@ import GlobalStyle from "./styles/globalStyle";
 import Container from "./styles/container/Container";
 
 /* COMPONENTES */
-import Nav from "./components/navigation/Navigator"
+import Nav from "./components/navigation/nav"
 
 /* VISTAS */
 import Home from './views/Home';
